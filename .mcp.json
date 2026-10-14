@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "demoman": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "demoman@0.2.0-rc.1",
+        "mcp"
+      ]
+    }
+  }
+}

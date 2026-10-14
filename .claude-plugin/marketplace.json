@@ -1,0 +1,25 @@
+{
+  "$schema": "https://code.claude.com/schemas/marketplace.json",
+  "name": "demoman",
+  "description": "Polished demo videos of web apps, made by your coding agent.",
+  "owner": {
+    "name": "Demoman",
+    "email": "support@demoman.io",
+    "url": "https://demoman.io"
+  },
+  "plugins": [
+    {
+      "name": "demoman",
+      "source": "./",
+      "description": "Polished demo videos of web apps, made by your coding agent.",
+      "version": "0.2.0-rc.1",
+      "author": {
+        "name": "Demoman",
+        "email": "support@demoman.io",
+        "url": "https://demoman.io"
+      },
+      "homepage": "https://demoman.io",
+      "license": "FSL-1.1-ALv2"
+    }
+  ]
+}

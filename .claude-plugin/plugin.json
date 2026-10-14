@@ -1,0 +1,13 @@
+{
+  "name": "demoman",
+  "description": "Polished demo videos of web apps, made by your coding agent.",
+  "version": "0.2.0-rc.1",
+  "mcpServers": "./.mcp.json",
+  "author": {
+    "name": "Demoman",
+    "email": "support@demoman.io",
+    "url": "https://demoman.io"
+  },
+  "homepage": "https://demoman.io",
+  "license": "FSL-1.1-ALv2"
+}

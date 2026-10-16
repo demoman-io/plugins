@@ -12,7 +12,7 @@
       "name": "demoman",
       "source": "./",
       "description": "Polished demo videos of web apps, made by your coding agent.",
-      "version": "0.2.0-rc.2",
+      "version": "0.2.0-rc.3",
       "author": {
         "name": "Demoman",
         "email": "support@demoman.io",

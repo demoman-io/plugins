@@ -11,6 +11,10 @@ this machine, then render the take to an MP4.
 1. Call the `recipe` tool and follow it. It is the whole procedure: the
    script format with examples, how to read each report, and what every
    refusal means. Do not write a script before reading it.
-2. The browser is signed in to nothing. A page behind a login shows its
-   sign-in page: tell the user, and spend no run on it.
+2. The browser is signed in only where the user ran `npx demoman signin <url>`
+   or where a demo account in `.demoman/accounts.json` signs it in. On
+   `signedOut`, follow the recipe's "Behind a login: demo accounts": reuse one,
+   or create one on a local development database, else give the user the
+   command from its detail. Only demo accounts; never ask for the user's own
+   password.
 3. When `export` answers `saved`, give the user `summary` and `file.path`.

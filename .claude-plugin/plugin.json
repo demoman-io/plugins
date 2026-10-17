@@ -1,7 +1,7 @@
 {
   "name": "demoman",
   "description": "Polished demo videos of web apps, made by your coding agent.",
-  "version": "0.2.0-rc.4",
+  "version": "0.2.0-rc.5",
   "mcpServers": "./.mcp.json",
   "author": {
     "name": "Demoman",

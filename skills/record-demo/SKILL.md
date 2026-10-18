@@ -1,6 +1,6 @@
 ---
 name: record-demo
-description: Use when asked to record, shoot or make a demo video, screencast or walkthrough of a flow in a web app — a feature just built ("record a video of the feature we just built", "make a demo of checkout") or any public site ("record searching Wikipedia"). Produces an MP4 on disk through Demoman's tools.
+description: Use when asked to record, shoot or make a demo video, screencast or walkthrough of a flow in a web app — a feature just built ("record a video of the feature we just built", "make a demo of checkout") or any public site ("record searching Wikipedia"). Produces an MP4 on disk through Demoman's tools. Also use when opening a pull request in a repo whose Demoman status says pullRequests "ask" or "attach".
 ---
 
 # Record a demo with Demoman

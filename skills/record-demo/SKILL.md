@@ -17,4 +17,5 @@ this machine, then render the take to an MP4.
    or create one on a local development database, else give the user the
    command from its detail. Only demo accounts; never ask for the user's own
    password.
-3. When `export` answers `saved`, give the user `summary` and `file.path`.
+3. When `export` answers `saved`, end on two lines: `summary` as it is, then
+   its `links` as markdown links on one line, as the recipe's hand-back says.

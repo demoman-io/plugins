@@ -4,7 +4,7 @@
       "command": "npx",
       "args": [
         "-y",
-        "demoman@0.7.1",
+        "demoman@0.7.2",
         "mcp"
       ]
     }

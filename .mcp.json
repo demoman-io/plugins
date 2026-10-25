@@ -3,8 +3,10 @@
     "demoman": {
       "command": "npx",
       "args": [
+        "--prefix",
+        "~/",
         "-y",
-        "demoman@0.7.2",
+        "demoman@0.7.3",
         "mcp"
       ]
     }

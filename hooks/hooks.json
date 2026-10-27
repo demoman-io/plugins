@@ -1,0 +1,26 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "sh \"${CLAUDE_PLUGIN_ROOT}/hooks/post-tool-use.sh\" 0.8.0",
+            "timeout": 30
+          }
+        ]
+      },
+      {
+        "matcher": "mcp__.*github.*__create_pull_request",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "sh \"${CLAUDE_PLUGIN_ROOT}/hooks/post-tool-use.sh\" 0.8.0",
+            "timeout": 30
+          }
+        ]
+      }
+    ]
+  }
+}

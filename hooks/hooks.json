@@ -6,7 +6,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "sh \"${CLAUDE_PLUGIN_ROOT}/hooks/post-tool-use.sh\" 0.8.0",
+            "command": "sh \"${CLAUDE_PLUGIN_ROOT}/hooks/post-tool-use.sh\" 0.8.1",
             "timeout": 30
           }
         ]
@@ -16,7 +16,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "sh \"${CLAUDE_PLUGIN_ROOT}/hooks/post-tool-use.sh\" 0.8.0",
+            "command": "sh \"${CLAUDE_PLUGIN_ROOT}/hooks/post-tool-use.sh\" 0.8.1",
             "timeout": 30
           }
         ]

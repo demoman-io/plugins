@@ -6,7 +6,7 @@
         "--prefix",
         "~/",
         "-y",
-        "demoman@0.9.6",
+        "demoman@0.9.7",
         "mcp"
       ]
     }
